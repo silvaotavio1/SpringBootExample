@@ -1,4 +1,4 @@
-package org.sambasoft;
+package org.otavio;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
