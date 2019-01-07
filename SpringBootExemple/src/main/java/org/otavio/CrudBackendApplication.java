@@ -19,9 +19,8 @@ public class CrudBackendApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(new User("one", "one"));
-		userRepository.save(new User("two", "one"));
-		userRepository.save(new User("three", "one"));
-		
+		userRepository.save(new User("Otávio", "Silva"));
+		userRepository.save(new User("Paulo", "Andrade"));
+		userRepository.save(new User("Teste", "Pedro"));
 	}
 }
